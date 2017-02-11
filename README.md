@@ -8,9 +8,9 @@ This Project Contains
 * Gson
 
  
-<java.version>1.7</java.version>
-<spring.version>4.0.3.RELEASE</spring.version>
-<log4j.version>1.2.17</log4j.version>
+java.version 1.7
+spring.version 4.0.3.RELEASE
+log4j.version 1.2.17
  
 
 And during development was tested on SGBD postgresql.
