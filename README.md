@@ -7,11 +7,11 @@ This Project Contains
 * Spring
 * Gson
 
- <properties>
-    <java.version>1.7</java.version>
-    <spring.version>4.0.3.RELEASE</spring.version>
-    <log4j.version>1.2.17</log4j.version>
-  </properties>
+ 
+<java.version>1.7</java.version>
+<spring.version>4.0.3.RELEASE</spring.version>
+<log4j.version>1.2.17</log4j.version>
+ 
 
 And during development was tested on SGBD postgresql.
 
