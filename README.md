@@ -8,9 +8,15 @@ This Project Contains
 * Gson
 
  
-java.version 1.7
-spring.version 4.0.3.RELEASE
-log4j.version 1.2.17
+java.version > 1.7
+
+spring.version > 4.0.3.RELEASE
+
+log4j.version > 1.2.17
+
+gson.version > 2.7
+
+postgresql.version > 9.4-1200-jdbc41
  
 
 And during development was tested on SGBD postgresql.
@@ -23,6 +29,7 @@ Here are the create table:
 
 CREATE TABLE Movie
 (
+
     id serial NOT NULL,
     name character varying(100) NOT NULL,
     director character varying(100) NOT NULL,
