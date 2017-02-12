@@ -35,7 +35,7 @@ CREATE TABLE Movie
     director character varying(100) NOT NULL,
     writers character varying(100) NOT NULL,
     year integer NOT NULL,
-    sinopse character varying(100) NOT NULL,
+    sinopse character varying(900) NOT NULL,
     stars character varying(100) NOT NULL,
     gender character varying(100) NOT NULL,
     PRIMARY KEY (id)
