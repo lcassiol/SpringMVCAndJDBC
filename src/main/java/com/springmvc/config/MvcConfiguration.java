@@ -20,7 +20,6 @@ import com.springmvc.utils.Utils;
 
 @Configuration
 @ComponentScan(basePackages="com.springmvc")
-@EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter{
 
 	private static final Logger logger = Logger.getLogger(MvcConfiguration.class);

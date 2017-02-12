@@ -59,7 +59,7 @@ public class MovieController {
 		return new ResponseEntity<Object>(gson.toJson(movie),HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "movie/delete/{id}", method = RequestMethod.DELETE, produces = "application/json")
+	@RequestMapping(value = "movie/{id}", method = RequestMethod.DELETE, produces = "application/json")
 	public ResponseEntity<Object> deleteMovie(@PathVariable Long id){
 	 
 		logger.info("Method Delete was Called");
