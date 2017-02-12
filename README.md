@@ -6,6 +6,8 @@ This Project Contains
 * Log4j
 * Spring
 * Gson
+* Junit
+* Spring-test
 
  
 java.version > 1.7
@@ -17,7 +19,14 @@ log4j.version > 1.2.17
 gson.version > 2.7
 
 postgresql.version > 9.4-1200-jdbc41
- 
+
+junit.version > 4.12
+
+spring-test.version > 4.3.0.RELEASE
+
+
+
+===========================================================================================================
 
 And during development was tested on SGBD postgresql.
 
