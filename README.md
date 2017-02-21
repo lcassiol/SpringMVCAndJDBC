@@ -1,5 +1,5 @@
 # SpringMVCAndJDBC
-This project was develop to show an example of Spring MVC and JDBC connection
+This project was develop to show an example of Spring MVC and JDBC connection, the objective for this project was development java to backend, and Angularjs to frontend
 
 This Project Contains
 * Maven
